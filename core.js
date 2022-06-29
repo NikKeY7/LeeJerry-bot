@@ -10,7 +10,7 @@ let slash = [];
 
 client.on('ready', ()=>{
     client.user.setStatus('dnd');
-    client.user.setPresence({ activity: { name: '' }});
+    client.user.setPresence({ activities: [{ name: 'https://github.com/NikKeY7/LeeJerry-bot' }], status: 'idle' });
 
     console.log(`Бот ${client.user.tag} запущен!`);
     const commands = fs.readdirSync(`./${cmdsDir}/`).filter(file => file.endsWith(".js"));
