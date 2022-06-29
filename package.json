@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "config": "^3.3.7",
+    "discord.js": "^13.8.1",
+    "nekos.life": "^3.0.0"
+  },
+  "name": "leej",
+  "version": "1.0.0",
+  "description": "Simple Discord Bot",
+  "main": "core.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node core.js"
+  },
+  "keywords": [
+    "Bot",
+    "Gifs",
+    "Discord",
+    "Anime"
+  ],
+  "author": "NikKeY",
+  "license": "ISC"
+}
